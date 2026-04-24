@@ -4,6 +4,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: halfdane
+      url-base: https://github.com/halfdane
     - name: petejohanson
       url-base: https://github.com/petejohanson/
     - name: caksoylar
@@ -14,6 +16,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-input-gestures
+      remote: halfdane
+      revision: main
     - name: cirque-input-module
       remote: geeksville
       revision: toucan
