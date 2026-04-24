@@ -105,7 +105,7 @@
     tap-detection;
     tap-timout-ms = <150>;
     inertial-cursor;
-    inertial-cursor-velocity-threshold = <2>;
+    inertial-cursor-velocity-threshold-ms = <20>;
     inertial-cursor-decay-percent = <30>;
 };
 
