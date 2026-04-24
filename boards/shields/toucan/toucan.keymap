@@ -18,7 +18,7 @@
             #binding-cells = <0>;
             flavor = "tap-preferred";
             tapping-term-ms = <220>;
-            bindings = <&mo TAP>, <&none>;
+            bindings = <&mo TAP &none>;
         };
     };
 
